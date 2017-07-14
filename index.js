@@ -41,7 +41,7 @@ apiRoutes.get('/ingredients',function(req,res){
               var ingredient = [];
                   for(var i = 0; i <ingredients.length; i++){
                     ingredient.push(ingredients[i])
-                    console.log(ingredient)
+                    (console.log"ingredients loaded")
                   }
                 res.send(ingredient);
             }
